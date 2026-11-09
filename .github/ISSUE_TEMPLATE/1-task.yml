@@ -1,0 +1,30 @@
+name: Task
+description: A piece of work in this repo
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What needs doing, and what done looks like.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Also add the matching area label (forms cannot set it from this field).
+      options: [product, research, learning, business, finance, company, infra, writing, docs]
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: e.g. persenix, learn, cortex, koyulabs-site. Also add the matching project label.
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent issue
+      description: The lab issue this belongs to, if any (e.g. koyu-labs/koyu-labs#16). Add it as a sub-issue there.

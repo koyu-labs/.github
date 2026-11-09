@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How Koyu Labs tracks work
+    url: https://github.com/koyu-labs/koyu-labs/blob/main/docs/guides/issues-and-labels.md
+    about: Labels, milestones, parent issues and the org Project
